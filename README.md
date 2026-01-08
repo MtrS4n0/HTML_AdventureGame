@@ -1,2 +1,3 @@
 # HTML_AdventureGame
-School project for a HTML adventure game
+School project for a HTML adventure game</br>
+Remains unfinished
