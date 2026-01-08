@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <a href="walkthrough.html" style="display:none;"></a>
+    <title>Seikkailupeli</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-inner">
+            <img id="image" src="" alt="" >
+            <input id="input" type="text" placeholder="Mitä haluat tehdä?">
+            <button id="action_btn">Vastaa</button>
+            <p id="output" class="output"></p>
+            <div class="toiminnot">
+                <p id="header">Toiminnot:</p>
+                <p>Poimi <span class="esine">{esine}</span></p>
+                <p>Käytä <span class="esine">{esine}</span></p>
+                <p>Jätä <span class="esine">{esine}</span></p>
+            </div>
+            <div id="tarina">Havahdut ajatuksistasi keskellä metsäpolkua.<br>Missä oikein olet?<br>Tutki ympäristöäsi ja yritä päästä eteenpäin.<br>Onnea matkaan!</div>
+        </div>
+        <div id="kartta" class="kartta"></div>
+        <script src="js/script.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+
+
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.4)), url(../images/background.jpg);
+    background-size: cover;
+    width: 700px;
+    height: 700px;
+}
+.container-inner {
+    width: 302px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+    color: #fff;
+}
+img {
+    margin: 40px auto 40px -25px;
+    display: block;
+    width: 350px;
+    height: 317px;
+    border: 1px solid black;
+}
+.toiminnot {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 50px 35px;
+    width: 100px;
+    flex: 1;
+    color: #fff;
+    font-size: 14px;
+    font-style: italic;
+}
+#header {
+    font-size: 16px;
+    text-decoration: underline;
+}
+.esine {
+    color: yellow;
+}
+
+.kartta {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 30px);
+    grid-template-rows: repeat(3, 30px);
+    gap: 2px;
+    margin: 10px 0 10px 10px;
+    padding: 5px;
+    border: 1px solid #999;
+    width: 95px;
+}
+.ruutu {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.65;
+}
+.pelaaja {
+    background-color: yellow;
+    color: black;
+}
+
+#tarina {
+    transition: opacity 0.8s ease;
+    opacity: 1;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    left: 0;
+    padding: 60px 0px 0 15px;
+    width: 125px;
+    flex: 1;
+    color: #fff;
+    font-size: 16px;
+    font-style: italic;
+}
+#tarina.fade-out {
+    opacity: 0;
+}
+
+#image {
+    transition: opacity 0.8s ease;
+    opacity: 1;
+}
+#image.fade-out {
+    opacity: 0;
+}
